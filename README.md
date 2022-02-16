@@ -1,2 +1,2 @@
 # FlappyBirdAI
-Vulkan with Neural Network in Flappy Bird
+ Flappy Bird with AI in OpenGL
