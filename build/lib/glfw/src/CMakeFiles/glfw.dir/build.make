@@ -125,24 +125,10 @@ lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
-lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o: ../lib/glfw/src/platform.c
-lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o -MF CMakeFiles/glfw.dir/platform.c.o.d -o CMakeFiles/glfw.dir/platform.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/platform.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/platform.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/platform.c > CMakeFiles/glfw.dir/platform.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/platform.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/platform.c -o CMakeFiles/glfw.dir/platform.c.s
-
 lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: ../lib/glfw/src/vulkan.c
 lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/vulkan.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
@@ -156,7 +142,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 lib/glfw/src/CMakeFiles/glfw.dir/window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../lib/glfw/src/window.c
 lib/glfw/src/CMakeFiles/glfw.dir/window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/window.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/window.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
@@ -167,136 +153,10 @@ lib/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
-lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../lib/glfw/src/egl_context.c
-lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../lib/glfw/src/osmesa_context.c
-lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: ../lib/glfw/src/null_init.c
-lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o -MF CMakeFiles/glfw.dir/null_init.c.o.d -o CMakeFiles/glfw.dir/null_init.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_init.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_init.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_init.c > CMakeFiles/glfw.dir/null_init.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_init.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_init.c -o CMakeFiles/glfw.dir/null_init.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: ../lib/glfw/src/null_monitor.c
-lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o -MF CMakeFiles/glfw.dir/null_monitor.c.o.d -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_monitor.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_monitor.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_monitor.c > CMakeFiles/glfw.dir/null_monitor.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_monitor.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_monitor.c -o CMakeFiles/glfw.dir/null_monitor.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: ../lib/glfw/src/null_window.c
-lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o -MF CMakeFiles/glfw.dir/null_window.c.o.d -o CMakeFiles/glfw.dir/null_window.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_window.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_window.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_window.c > CMakeFiles/glfw.dir/null_window.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_window.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_window.c -o CMakeFiles/glfw.dir/null_window.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: ../lib/glfw/src/null_joystick.c
-lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o -MF CMakeFiles/glfw.dir/null_joystick.c.o.d -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_joystick.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_joystick.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_joystick.c > CMakeFiles/glfw.dir/null_joystick.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_joystick.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/null_joystick.c -o CMakeFiles/glfw.dir/null_joystick.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: ../lib/glfw/src/posix_module.c
-lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o -MF CMakeFiles/glfw.dir/posix_module.c.o.d -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_module.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_module.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_module.c > CMakeFiles/glfw.dir/posix_module.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_module.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_module.c -o CMakeFiles/glfw.dir/posix_module.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../lib/glfw/src/posix_time.c
-lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_time.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_time.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
-lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../lib/glfw/src/posix_thread.c
-lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_thread.c.i"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
-
-lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_thread.c.s"
-	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
-
 lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: ../lib/glfw/src/x11_init.c
 lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -MF CMakeFiles/glfw.dir/x11_init.c.o.d -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/x11_init.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.i: cmake_force
@@ -310,7 +170,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.s: cmake_force
 lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: ../lib/glfw/src/x11_monitor.c
 lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -MF CMakeFiles/glfw.dir/x11_monitor.c.o.d -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/x11_monitor.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.i: cmake_force
@@ -324,7 +184,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.s: cmake_force
 lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: ../lib/glfw/src/x11_window.c
 lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -MF CMakeFiles/glfw.dir/x11_window.c.o.d -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/x11_window.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.i: cmake_force
@@ -338,7 +198,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.s: cmake_force
 lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: ../lib/glfw/src/xkb_unicode.c
 lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -MF CMakeFiles/glfw.dir/xkb_unicode.c.o.d -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/xkb_unicode.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.i: cmake_force
@@ -349,10 +209,38 @@ lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/xkb_unicode.c.s"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/xkb_unicode.c -o CMakeFiles/glfw.dir/xkb_unicode.c.s
 
+lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
+lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: ../lib/glfw/src/posix_time.c
+lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c
+
+lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_time.c.i"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
+
+lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_time.c.s"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
+
+lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
+lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: ../lib/glfw/src/posix_thread.c
+lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c
+
+lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_thread.c.i"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
+
+lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_thread.c.s"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
+
 lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: ../lib/glfw/src/glx_context.c
 lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -MF CMakeFiles/glfw.dir/glx_context.c.o.d -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/glx_context.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.i: cmake_force
@@ -363,10 +251,38 @@ lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/glx_context.c.s"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/glx_context.c -o CMakeFiles/glfw.dir/glx_context.c.s
 
+lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
+lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: ../lib/glfw/src/egl_context.c
+lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c
+
+lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
+
+lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
+
+lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
+lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: ../lib/glfw/src/osmesa_context.c
+lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c
+
+lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
+
+lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
+	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
+
 lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: lib/glfw/src/CMakeFiles/glfw.dir/flags.make
 lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: ../lib/glfw/src/linux_joystick.c
 lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: lib/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && /bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -MF CMakeFiles/glfw.dir/linux_joystick.c.o.d -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw/src/linux_joystick.c
 
 lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.i: cmake_force
@@ -383,23 +299,17 @@ glfw_OBJECTS = \
 "CMakeFiles/glfw.dir/init.c.o" \
 "CMakeFiles/glfw.dir/input.c.o" \
 "CMakeFiles/glfw.dir/monitor.c.o" \
-"CMakeFiles/glfw.dir/platform.c.o" \
 "CMakeFiles/glfw.dir/vulkan.c.o" \
 "CMakeFiles/glfw.dir/window.c.o" \
-"CMakeFiles/glfw.dir/egl_context.c.o" \
-"CMakeFiles/glfw.dir/osmesa_context.c.o" \
-"CMakeFiles/glfw.dir/null_init.c.o" \
-"CMakeFiles/glfw.dir/null_monitor.c.o" \
-"CMakeFiles/glfw.dir/null_window.c.o" \
-"CMakeFiles/glfw.dir/null_joystick.c.o" \
-"CMakeFiles/glfw.dir/posix_module.c.o" \
-"CMakeFiles/glfw.dir/posix_time.c.o" \
-"CMakeFiles/glfw.dir/posix_thread.c.o" \
 "CMakeFiles/glfw.dir/x11_init.c.o" \
 "CMakeFiles/glfw.dir/x11_monitor.c.o" \
 "CMakeFiles/glfw.dir/x11_window.c.o" \
 "CMakeFiles/glfw.dir/xkb_unicode.c.o" \
+"CMakeFiles/glfw.dir/posix_time.c.o" \
+"CMakeFiles/glfw.dir/posix_thread.c.o" \
 "CMakeFiles/glfw.dir/glx_context.c.o" \
+"CMakeFiles/glfw.dir/egl_context.c.o" \
+"CMakeFiles/glfw.dir/osmesa_context.c.o" \
 "CMakeFiles/glfw.dir/linux_joystick.c.o"
 
 # External object files for target glfw
@@ -409,27 +319,21 @@ lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/context.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/init.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/input.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/window.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
-lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o
+lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o
+lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o
+lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o
+lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/build.make
 lib/glfw/src/libglfw3.a: lib/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C static library libglfw3.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library libglfw3.a"
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
 	cd /home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 

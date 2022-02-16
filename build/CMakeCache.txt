@@ -337,6 +337,15 @@ GLFW_LIBRARY_TYPE:STRING=
 //Value Computed by CMake
 GLFW_SOURCE_DIR:STATIC=/home/dynio/Development/DevWork/FlappyBirdAI/lib/glfw
 
+//Use OSMesa for offscreen context creation
+GLFW_USE_OSMESA:BOOL=OFF
+
+//Use Wayland for window creation
+GLFW_USE_WAYLAND:BOOL=OFF
+
+//Assume the Vulkan loader is linked with the application
+GLFW_VULKAN_STATIC:BOOL=OFF
+
 //Path to a library.
 MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 

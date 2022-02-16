@@ -127,6 +127,7 @@ FlappyBirdAI: CMakeFiles/FlappyBirdAI.dir/build.make
 FlappyBirdAI: lib/glfw/src/libglfw3.a
 FlappyBirdAI: /usr/lib/x86_64-linux-gnu/librt.so
 FlappyBirdAI: /usr/lib/x86_64-linux-gnu/libm.so
+FlappyBirdAI: /usr/lib/x86_64-linux-gnu/libX11.so
 FlappyBirdAI: CMakeFiles/FlappyBirdAI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dynio/Development/DevWork/FlappyBirdAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable FlappyBirdAI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FlappyBirdAI.dir/link.txt --verbose=$(VERBOSE)

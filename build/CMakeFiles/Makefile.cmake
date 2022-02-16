@@ -11,11 +11,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.2/CMakeSystem.cmake"
-  "../lib/glfw/CMake/cmake_uninstall.cmake.in"
-  "../lib/glfw/CMake/glfw3.pc.in"
-  "../lib/glfw/CMake/glfw3Config.cmake.in"
   "../lib/glfw/CMakeLists.txt"
+  "../lib/glfw/cmake_uninstall.cmake.in"
   "../lib/glfw/src/CMakeLists.txt"
+  "../lib/glfw/src/glfw3.pc.in"
+  "../lib/glfw/src/glfw3Config.cmake.in"
+  "../lib/glfw/src/glfw_config.h.in"
   "/snap/cmake/1005/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/snap/cmake/1005/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/snap/cmake/1005/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -67,9 +68,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/glfw/src/glfw3Config.cmake"
   "lib/glfw/src/glfw3ConfigVersion.cmake"
+  "lib/glfw/src/glfw_config.h"
+  "lib/glfw/src/glfw3.pc"
   "lib/glfw/cmake_uninstall.cmake"
   "lib/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/glfw/src/glfw3.pc"
   "lib/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -77,6 +79,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FlappyBirdAI.dir/DependInfo.cmake"
   "lib/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
-  "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "lib/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "lib/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

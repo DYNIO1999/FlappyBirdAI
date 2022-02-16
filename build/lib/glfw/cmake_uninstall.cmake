@@ -1,6 +1,6 @@
 
 if (NOT EXISTS "/home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/install_manifest.txt\"")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/install_manifest.txt\"")
 endif()
 
 file(READ "/home/dynio/Development/DevWork/FlappyBirdAI/build/lib/glfw/install_manifest.txt" files)
