@@ -14,11 +14,13 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(lib/glfw)
+add_subdirectory(src)
 include_directories(lib/glfw)
 include_directories(lib/glfw/include)
 
-
-set(SOURCE_FILES src/main.cpp src/test.cpp )
+#file(GLOB SOURCE_FILE RELATIVE "src" "*.cpp")
+#file(GLOB Dir2_Sources RELATIVE "" "*.cpp")
+#set(SOURCE_FILES src/main.cpp src/test.cpp )
 
 # glad source file
 set(GLAD lib/glad/src/glad.c)
@@ -26,7 +28,7 @@ set(GLAD lib/glad/src/glad.c)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${GLAD})
 
-target_link_libraries(FlappyBirdAI glfw ${GLFW_LIBRARIES})
+target_link_libraries(FlappyBirdAI SRC_DIR_LIB glfw ${GLFW_LIBRARIES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE lib/glad/include)
 
