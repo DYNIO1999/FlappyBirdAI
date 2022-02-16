@@ -1,0 +1,1 @@
+/bin/clang++-10 -g CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o CMakeFiles/FlappyBirdAI.dir/src/test.cpp.o CMakeFiles/FlappyBirdAI.dir/lib/glad/src/glad.c.o -o FlappyBirdAI  lib/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so -lpthread 
