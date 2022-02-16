@@ -17,9 +17,8 @@ add_subdirectory(lib/glfw)
 add_subdirectory(src)
 include_directories(lib/glfw)
 include_directories(lib/glfw/include)
+include_directories(lib/glad/include)
 
-#file(GLOB SOURCE_FILE RELATIVE "src" "*.cpp")
-#file(GLOB Dir2_Sources RELATIVE "" "*.cpp")
 #set(SOURCE_FILES src/main.cpp src/test.cpp )
 
 # glad source file
