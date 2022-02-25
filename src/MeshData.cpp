@@ -6,7 +6,7 @@ MeshData::MeshData(std::vector<glm::vec3> positions, std::vector<glm::vec3> norm
 	this->indieces = indieces;
 	this->normals = normals;
 
-	for (int i = 0; i < positions.size(); i++) {
+	for (int i = 0; i < (int)positions.size(); i++) {
 		struct MeshVertex v;
 		v.position = positions[i];
 		v.normal = normals[i];
