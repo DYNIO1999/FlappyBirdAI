@@ -51,10 +51,12 @@ Shader::Shader(std::string vertex_path, std::string fragment_path) {
 
 }
 
+
+
 std::string Shader::getShaderSource(std::string path) {
 
 	FILE* f;
-	errno_t err;
+	int err;
 	err = fopen_s(&f, path.c_str(), "r");
 
 	if (err != 0) {

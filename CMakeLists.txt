@@ -8,28 +8,29 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-#GLFW additions
+
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 
-add_subdirectory(lib/glfw)
-add_subdirectory(src)
-include_directories(lib/glfw)
-include_directories(lib/glfw/include)
-include_directories(lib/glad/include)
 
-#set(SOURCE_FILES src/main.cpp src/test.cpp )
+add_subdirectory(libs/glfw)
 
-# glad source file
-set(GLAD lib/glad/src/glad.c)
+include_directories(libs/glad/include)
+#include_directories(libs/imgui)
+include_directories(libs/glfw/include)
+
+file(GLOB_RECURSE SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp  ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h)
 
 
-add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${GLAD})
-
-target_link_libraries(FlappyBirdAI SRC_DIR_LIB glfw ${GLFW_LIBRARIES})
-
-target_include_directories(${PROJECT_NAME} PRIVATE lib/glad/include)
+set(GLAD  "libs/glad/include/glad/glad.h"
+         "libs/glad/src/glad.c")
 
 
+add_executable(FlappyBirdAI  ${SOURCES} ${GLAD})
 
+find_package(OpenGL REQUIRED)
+
+target_link_libraries(FlappyBirdAI  PRIVATE ${OPENGL_gl_LIBRARY})
+target_link_libraries(FlappyBirdAI PRIVATE glfw ${GLFW_LIBRARIES})
+target_link_libraries(FlappyBirdAI PRIVATE ${CMAKE_DL_LIBS})

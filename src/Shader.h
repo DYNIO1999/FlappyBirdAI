@@ -4,14 +4,29 @@
 #include <fstream>
 #include <stdio.h>
 #include <sstream>
+
 #include "glad/glad.h"
-#include <GL/GL.h>
+#include <GL/gl.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
 
-class Shader {
+//
+/**
+ * fopen_s setup for Unix based systems 
+ * 
+ * 
+ */
+#ifdef __unix
+#define fopen_s(pFile, filename, mode) ((*(pFile)) = fopen((filename), (mode))) == NULL
+#endif
+//
+
+
+
+class Shader
+{
 public:
 	
 	Shader(std::string vertex_path, std::string fragment_path);

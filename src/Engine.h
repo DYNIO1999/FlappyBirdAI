@@ -1,9 +1,6 @@
 #ifndef _ENGINE_H_
 #define _ENGINE_H_
 
-#define GLFW_INCLUDE_NONE
-#include <GLFW/glfw3.h>
-
 
 
 class Engine
