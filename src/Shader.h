@@ -12,19 +12,6 @@
 #include <glm/gtc/type_ptr.hpp>
 
 
-//
-/**
- * fopen_s setup for Unix based systems 
- * 
- * 
- */
-#ifdef __unix
-#define fopen_s(pFile, filename, mode) ((*(pFile)) = fopen((filename), (mode))) == NULL
-#endif
-//
-
-
-
 class Shader
 {
 public:

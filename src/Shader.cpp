@@ -55,25 +55,47 @@ Shader::Shader(std::string vertex_path, std::string fragment_path) {
 
 std::string Shader::getShaderSource(std::string path) {
 
+#ifdef __linux__
 	FILE* f;
-	int err;
-	err = fopen_s(&f, path.c_str(), "r");
-
-	if (err != 0) {
+	f = fopen(path.c_str(), "r");
+	if (!f)
+	{
 		std::cout << "Error in opening file " << path << std::endl;
 		return "";
 	}
 
 	std::string file;
 	char c;
-	if (f) {
+	if (f)
+	{
 		while ((c = getc(f)) != EOF)
 			file += c;
-
 	}
 	file += "\0";
 	fclose(f);
 	return file;
+#elif _WIN64
+	FILE *f;
+	errno_t err;
+	err = fopen_s(&f, path.c_str(), "r");
+
+	if (err != 0)
+	{
+		std::cout << "Error in opening file " << path << std::endl;
+		return "";
+	}
+
+	std::string file;
+	char c;
+	if (f)
+	{
+		while ((c = getc(f)) != EOF)
+			file += c;
+	}
+	file += "\0";
+	fclose(f);
+	return file;
+#endif
 }
 
 Shader::~Shader() {

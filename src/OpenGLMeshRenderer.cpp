@@ -2,7 +2,7 @@
 
 OpenGLMeshRenderer::OpenGLMeshRenderer()
 {
-	meshRendererShader = Shader("res/shaders/vertex_deffered_mesh.glsl", "res/shaders/fragment_deffered_mesh.glsl");
+	meshRendererShader = Shader("../res/shaders/vertex_deffered_mesh.glsl", "../res/shaders/fragment_deffered_mesh.glsl");
 
 }
 
