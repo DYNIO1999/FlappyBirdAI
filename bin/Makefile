@@ -174,30 +174,6 @@ libs/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/libs/glad/src/glad.c.s
 .PHONY : libs/glad/src/glad.c.s
 
-src/Engine.o: src/Engine.cpp.o
-.PHONY : src/Engine.o
-
-# target to build an object file
-src/Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/Engine.cpp.o
-.PHONY : src/Engine.cpp.o
-
-src/Engine.i: src/Engine.cpp.i
-.PHONY : src/Engine.i
-
-# target to preprocess a source file
-src/Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/Engine.cpp.i
-.PHONY : src/Engine.cpp.i
-
-src/Engine.s: src/Engine.cpp.s
-.PHONY : src/Engine.s
-
-# target to generate assembly for a file
-src/Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/Engine.cpp.s
-.PHONY : src/Engine.cpp.s
-
 src/MeshData.o: src/MeshData.cpp.o
 .PHONY : src/MeshData.o
 
@@ -294,6 +270,30 @@ src/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/core/Engine.o: src/core/Engine.cpp.o
+.PHONY : src/core/Engine.o
+
+# target to build an object file
+src/core/Engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/core/Engine.cpp.o
+.PHONY : src/core/Engine.cpp.o
+
+src/core/Engine.i: src/core/Engine.cpp.i
+.PHONY : src/core/Engine.i
+
+# target to preprocess a source file
+src/core/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/core/Engine.cpp.i
+.PHONY : src/core/Engine.cpp.i
+
+src/core/Engine.s: src/core/Engine.cpp.s
+.PHONY : src/core/Engine.s
+
+# target to generate assembly for a file
+src/core/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlappyBirdAI.dir/build.make CMakeFiles/FlappyBirdAI.dir/src/core/Engine.cpp.s
+.PHONY : src/core/Engine.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -331,9 +331,6 @@ help:
 	@echo "... libs/glad/src/glad.o"
 	@echo "... libs/glad/src/glad.i"
 	@echo "... libs/glad/src/glad.s"
-	@echo "... src/Engine.o"
-	@echo "... src/Engine.i"
-	@echo "... src/Engine.s"
 	@echo "... src/MeshData.o"
 	@echo "... src/MeshData.i"
 	@echo "... src/MeshData.s"
@@ -346,6 +343,9 @@ help:
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
+	@echo "... src/core/Engine.o"
+	@echo "... src/core/Engine.i"
+	@echo "... src/core/Engine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

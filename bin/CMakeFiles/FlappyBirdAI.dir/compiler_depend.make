@@ -67,10 +67,6 @@ CMakeFiles/FlappyBirdAI.dir/libs/glad/src/glad.c.o: ../libs/glad/src/glad.c \
   /usr/include/dlfcn.h \
   /usr/include/x86_64-linux-gnu/bits/dlfcn.h
 
-CMakeFiles/FlappyBirdAI.dir/src/Engine.cpp.o: ../src/Engine.cpp \
-  /usr/include/stdc-predef.h \
-  ../src/Engine.h
-
 CMakeFiles/FlappyBirdAI.dir/src/MeshData.cpp.o: ../src/MeshData.cpp \
   /usr/include/stdc-predef.h \
   ../src/MeshData.h \
@@ -2099,6 +2095,10 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/9/bits/postypes.h:
 
+/usr/include/glm/ext/quaternion_transform.inl:
+
+/usr/include/c++/9/bits/stringfwd.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/9/ios:
@@ -2121,6 +2121,18 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/glm/detail/func_common.inl:
 
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/9/cassert:
+
+/usr/include/c++/9/bits/vector.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
+
+/usr/include/c++/9/cmath:
+
 /usr/include/glm/ext/matrix_clip_space.inl:
 
 /usr/include/c++/9/cstdio:
@@ -2142,12 +2154,6 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/glm/ext/quaternion_transform.inl:
-
-/usr/include/c++/9/bits/stringfwd.h:
-
-../src/Engine.cpp:
 
 /usr/include/c++/9/bits/exception_ptr.h:
 
@@ -2177,25 +2183,9 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/9/bits/exception.h:
 
-/usr/include/glm/common.hpp:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
 /usr/include/glm/ext/vector_double1_precision.hpp:
 
 /usr/include/glm/ext/vector_int3.hpp:
-
-/usr/include/c++/9/bits/vector.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
-
-/usr/include/c++/9/cmath:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/9/cassert:
 
 /usr/include/c++/9/bits/range_access.h:
 
@@ -2270,10 +2260,6 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/glm/detail/type_mat2x4.inl:
-
-/usr/include/glm/detail/_vectorize.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/linux/limits.h:
 
@@ -2354,8 +2340,6 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/glm/detail/compute_vector_relational.hpp:
 
 /usr/include/glm/vec3.hpp:
-
-../src/Engine.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
@@ -2524,8 +2508,6 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/9/bits/stl_iterator_base_funcs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/assert.h:
 
 /usr/include/c++/9/bits/basic_string.tcc:
 
@@ -2776,3 +2758,13 @@ CMakeFiles/FlappyBirdAI.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/sched.h:
 
 /usr/include/glm/detail/func_exponential.inl:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/glm/detail/_vectorize.hpp:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/glm/common.hpp:

@@ -68,11 +68,6 @@ CMakeFiles/FlappyBirdAI.dir/libs/glad/src/glad.c.o
  /usr/include/dlfcn.h
  /usr/include/x86_64-linux-gnu/bits/dlfcn.h
 
-CMakeFiles/FlappyBirdAI.dir/src/Engine.cpp.o
- /home/dynio/Development/Dev_Work/FlappyBirdAI/src/Engine.cpp
- /usr/include/stdc-predef.h
- /home/dynio/Development/Dev_Work/FlappyBirdAI/src/Engine.h
-
 CMakeFiles/FlappyBirdAI.dir/src/MeshData.cpp.o
  /home/dynio/Development/Dev_Work/FlappyBirdAI/src/MeshData.cpp
  /usr/include/stdc-predef.h
