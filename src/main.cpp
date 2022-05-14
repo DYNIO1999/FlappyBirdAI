@@ -21,7 +21,7 @@ bool initGLAD()
 
 int main(void)
 {
-
+    //TESTSTSTSTTST
     GLFWwindow* window;
 
     /* Initialize the library */
